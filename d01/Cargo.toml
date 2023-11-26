@@ -1,5 +1,5 @@
 [package]
-name = "aoc"
+name = "d01"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,6 +7,3 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0"
-rayon = "1.8.0"
-
-d01 = { path = "../d01"  }
