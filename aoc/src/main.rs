@@ -19,7 +19,7 @@ fn main() -> anyhow::Result<()> {
         solutions.push(Ok("".into()));
     }
 
-    let funcs = [d01::solve];
+    let funcs = [d01::solve, d02::solve];
 
     let t = std::time::Instant::now();
 
